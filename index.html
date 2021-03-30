@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      // Your web app's Firebase configuration
+      //add here
+      const firebaseConfig = {
+  apiKey: "AIzaSyA3NOrnajNlf65ClXdIlGPlRPJ1Siv6MrA",
+  authDomain: "mcr-game-b3611.firebaseapp.com",
+  databaseURL: "https://mcr-game-b3611-default-rtdb.firebaseio.com",
+  projectId: "mcr-game-b3611",
+  storageBucket: "mcr-game-b3611.appspot.com",
+  messagingSenderId: "905322083336",
+  appId: "1:905322083336:web:5ae836eed9d330f3c98dbd"
+};
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="js/Game.js"></script>
+    <script src="js/Player.js"></script>
+    <script src="js/Form.js"></script>
+    <script src="sketch.js"></script>
+  </body>
+</html>
